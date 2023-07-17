@@ -1,0 +1,47 @@
+body {
+    margin: none;
+    padding: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 20px;
+  
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 10px;
+  
+}
+.flex1>div{
+  padding:  0px 20px;
+}
+
+.style3{
+  border-radius: 5px;
+  background: #6072a4;
+  padding: 10px 40px; 
+ color: white;
+  
+}
+.style4{
+  border-radius:5px ;
+  text-align: center;
+  justify-content: space-around;
+  background-color: skyblue;
+  border-bottom: dashed;
+  border-width: 1px;
+  
+}
+.style5{
+  border-radius:5px ;
+  text-align: center;
+  justify-content: space-around;
+  background-color: skyblue;
+  border-width: 1px;
+  
+}
