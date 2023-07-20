@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1> Find wheather the given numbers array is divisible by 7</h1>
+    <p id="demo"></p>
+    <script>
+        let numbers = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+        let divisibleby7 = numbers.every(divisible)
+        document.getElementById("demo").innerHTML = "The given number is  " + divisibleby7;
+        function divisible(value) {
+            return value % 7 == 0;
+        }
+    </script>
+</body>
+
+</html>
