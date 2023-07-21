@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Find the element, which is divisible by 7 using forEach loop</h2>
+        <p id="demo"></p>
+        <script>
+            let numbers = [5, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49]
+            let element =[]
+            let num = numbers.forEach(num => {
+            if (num % 7 === 0)
+            element.push(num)
+            });
+        document.getElementById("demo").innerHTML = "The element which is divisible by 7 using for each loop " + element;
+        </script>
+    </body>
+</html>
